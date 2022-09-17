@@ -1,12 +1,11 @@
-// import styled from 'styled-components';
 import { HeaderStyled } from './styled';
-import { Button } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react';
 
 export const Header = () => {
   return (
     <HeaderStyled>
-      <Button  colorScheme='whiteAlpha'>Cookenu</Button>
-      <Button colorScheme='whiteAlpha'>Login</Button>
+      <Button  variant="header">Cookenu</Button>
+      <Button variant="header">Login</Button>
     </HeaderStyled>
   )
 }
