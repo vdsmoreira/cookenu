@@ -3,8 +3,13 @@ import { extendTheme } from "@chakra-ui/react";
 export const theme = extendTheme({
   components: {
     Button: {
-      vaiants: {
+      variants: {
         header: {
+          bg: "laranja.500"
+
+        },
+        form: {
+          width: '100%',
           bg: "laranja.500"
 
         }
